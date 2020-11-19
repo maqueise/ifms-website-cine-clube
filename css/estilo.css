@@ -6,6 +6,9 @@
 body{
     font-family: 'Roboto', sans-serif; 
 }
+h1,h2,h3{
+    font-family: 'Poppins',sans-serif;
+}
 .cabecalho{
     width: 100%;
     height: 80px;
@@ -53,3 +56,71 @@ body{
 .cabecalho .login a i{
     font-size: 45px;
 }
+
+/* BANNER INSCRICÃO */
+.banner-inscricao{
+    width: 100%;
+    height: 350px;
+    background: url(../img/banner-sobrenatural.jpg);
+    background-size: cover;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.banner-inscricao h1,.banner-inscricao h2{
+    color:white
+}
+
+.banner-inscricao h1{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.banner-inscricao h2{
+    font-size: 30px;
+}
+.banner-inscricao .botao-inscricao:any-link{
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    background-color:#4B3E7C;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+   /* box-shadow: 2px 2px 2px #333333;*/
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.banner-inscricao .botao-inscricao:hover{
+    background-color: #D33E8A;
+}
+.banner-destaque{
+    width: 100%;
+    height: 700px;
+    background: url(../img/banner-convencao-das-bruxas.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+.banner-destaque .cartao{
+    width: 500px;
+    background-color: #323232;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    filter: opacity(0.8);
+}
+.banner-destaque .cartao h2{
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.banner-destaque .classificacao{
+    padding: 7px;
+    background-color: #00CDFF;
+    border-radius: 3px;
+}
+
