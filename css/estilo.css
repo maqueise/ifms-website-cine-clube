@@ -151,14 +151,14 @@ h1,h2,h3{
     color: white;
     text-decoration: none;
     padding: 5px;
-    font-size: 20PX;
+    font-size: 18px;
 }
 
 .rodape nav a:hover {
     color: #D33E8A;
 }
 
-.rodape .botao-inscrever:link, .rodape .botao-inscrever:visited {
+.rodape .botao-inscrever:any-link {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
