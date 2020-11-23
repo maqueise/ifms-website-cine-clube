@@ -124,3 +124,53 @@ h1,h2,h3{
     border-radius: 3px;
 }
 
+/** RODAPÉ **/
+
+.rodape {
+    width: 100%;
+    height: 300px;
+    background-color: #1D1733;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.rodape nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape nav a:link, .rodape nav a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20PX;
+}
+
+.rodape nav a:hover {
+    color: #D33E8A;
+}
+
+.rodape .botao-inscrever:link, .rodape .botao-inscrever:visited {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: #D33E8A;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.rodape .botao-inscrever:hover {
+    background-color: #9A81F9;
+}
